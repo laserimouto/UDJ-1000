@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1954524782318522344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1839432925806406888, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca94ed5e22e95e643b1c3734bf3e057f, type: 2}
+    - target: {fileID: 1839432925806406888, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cb89f0f9bcbb2e459aa09b7fbbe6622, type: 2}
+    - target: {fileID: 1839432925806406888, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: e683683feb22fa149be800906362db22, type: 2}
+    - target: {fileID: 4566411068113873651, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566411068113873651, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.897
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566411068113873651, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5435750525937385272, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 5435750525937385272, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922860056046365907, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447441058267543145, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_Name
+      value: UDJ-1000 Poiyomi
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447441058267543145, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623039194338221479, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 6623039194338221479, guid: 4393e91a174788c4b8ddd553d65f630e,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4393e91a174788c4b8ddd553d65f630e, type: 3}
