@@ -1,7 +1,7 @@
 # UDJ-1000
 MIDI-controlled 4-channel DJ controller prop for VRChat worlds. The UDJ-1000's knobs, faders, buttons & jogwheels are synced to reflect the positions of a physical DDJ-1000 in real time.
 
-![UDJ-1000](./Docs/booth-thumb1-resize.png)
+![UDJ-1000](./Docs/img/booth-thumb1-resize.png)
 
 
 ## Setup
@@ -9,10 +9,9 @@ MIDI-controlled 4-channel DJ controller prop for VRChat worlds. The UDJ-1000's k
 - Unity 2019.4.31f1
 - [VRChat SDK3 Worlds](https://vrchat.com/home/download)
 - [UdonSharp](https://github.com/vrchat-community/UdonSharp)
-- Python 3.6+
-- [Mido](https://pypi.org/project/mido/)
+- Python 3.6+ for [mido](https://pypi.org/project/mido/) & rtmidi backend
+- [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) or equivalent virtual MIDI loopback.
 - (Optional) [Poiyomi Toon Shader](https://github.com/poiyomi/PoiyomiToonShader)
-- (Optional) [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) or equivalent virtual MIDI loopback. Used to route `midifilter.py` output back into Unity/VRChat.
 
 
 ### Getting Started
@@ -22,16 +21,24 @@ MIDI-controlled 4-channel DJ controller prop for VRChat worlds. The UDJ-1000's k
 ```bash
 pip install mido python-rtmidi
 ```
-4. Run MIDI filter:
+4. Install loopMidi & create a virtual MIDI port
+5. Run midifilter.py (no arguments lists all available MIDI port names)
 ```bash
-python midifilter.py "DDJ-1000" "<MIDI OUTPUT NAME>"
+> python midifilter.py
+MIDI Inputs:  ['DDJ-1000 0', 'loopMIDI Port 1']
+MIDI Outputs:  ['Microsoft GS Wavetable Synth 0', 'DDJ-1000 1', 'loopMIDI Port 2']
+> python midifilter.py "DDJ-1000 0" "loopMIDI Port 2"
+Running...
 ```
-5. In Unity, select the MIDI output name from the previous step under `VRChat SDK > Utilities > MIDI`
-6. Play
+6. In Unity, select the loopMIDI port under `VRChat SDK > Utilities > MIDI`
+7. Play
 
+## Detailed Setup Tutorials
+- [MIDI Sync + Rekordbox Control using Separate MacOS DJ Computer](https://github.com/laserimouto/UDJ-1000/wiki/MIDI-control-using-a-separate-MacOS-DJ-computer) (Recommended)
+- [Windows Only MIDI Sync + Rekordbox Control](https://github.com/laserimouto/UDJ-1000/wiki/MIDI-control-using-Windows-only)
 
 ## Demo
-[![UDJ-1000 next to real life DJ controller](./Docs/youtube-thumbnail.jpg)](https://www.youtube.com/watch?v=S0iXARL-Q10)
+[![UDJ-1000 next to real life DJ controller](./Docs/img/youtube-thumbnail.jpg)](https://www.youtube.com/watch?v=S0iXARL-Q10)
 
 Watch the [demo video on Youtube](https://www.youtube.com/watch?v=S0iXARL-Q10).
 
