@@ -12,7 +12,7 @@ Material:
   m_ShaderKeywords: MOCHIE_PBR POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE POI_LIGHT_DATA_ADDITIVE_ENABLE
     POI_VERTEXLIGHT_ON VIGNETTE_MASKED _EMISSION _LIGHTINGMODE_REALISTIC _METALLICGLOSSMAP
     _RIMSTYLE_POIYOMI
-  m_LightmapFlags: 1
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -1550,7 +1550,7 @@ Material:
     - m_start_TextPosition: 0
     - m_start_audioLink: 0
     - m_start_backFace: 0
-    - m_start_bakedLighting: 0
+    - m_start_bakedLighting: 1
     - m_start_blending: 0
     - m_start_brdf: 1
     - m_start_clearCoat: 0

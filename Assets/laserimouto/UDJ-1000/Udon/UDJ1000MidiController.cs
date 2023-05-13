@@ -46,7 +46,8 @@ public class UDJ1000MidiController : UdonSharpBehaviour
 
     private const int FX_CHANNEL = 4;
     private const int FX_DEPTH = 2;
-    private const int FX_ONOFF_BUTTON = 70;
+    private const int FX_ONOFF_BUTTON_1 = 70;
+    private const int FX_ONOFF_BUTTON_2 = 71;
 
     private const int FX_SELECT_MIN = 32;
     private const int FX_SELECT_MAX = 45;
@@ -512,7 +513,7 @@ public class UDJ1000MidiController : UdonSharpBehaviour
             MoveEffectKnobs();
             RequestSerialization();
         }
-        else if (control == FX_ONOFF_BUTTON)
+        else if (control == FX_ONOFF_BUTTON_1 || control == FX_ONOFF_BUTTON_2)
         {
             Debug.Log("Toggle FX On/Off");
             SendCustomNetworkEvent(NetworkEventTarget.All, "TriggerEffect" + OnOff(velocity));

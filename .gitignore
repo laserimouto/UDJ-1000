@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Rr]elease/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -73,6 +74,7 @@ crashlytics-build.properties
 /[Aa]ssets/_LastBuild.meta
 /[Aa]ssets/_PoiyomiShaders/
 /[Aa]ssets/_PoiyomiShaders.meta
+/[Aa]ssets/Screenshot*
 /[Aa]ssets/SerializedUdonPrograms*
 /[Aa]ssets/UdonSharp/
 /[Aa]ssets/UdonSharp.meta

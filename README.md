@@ -1,6 +1,9 @@
 # UDJ-1000
 MIDI-controlled 4-channel DJ controller prop for VRChat worlds. The UDJ-1000's knobs, faders, buttons & jogwheels are synced to reflect the positions of a physical DDJ-1000 in real time.
 
+![UDJ-1000](./Docs/booth-thumb1-resize.png)
+
+
 ## Setup
 ### Requirements
 - Unity 2019.4.31f1
@@ -8,7 +11,6 @@ MIDI-controlled 4-channel DJ controller prop for VRChat worlds. The UDJ-1000's k
 - [UdonSharp](https://github.com/vrchat-community/UdonSharp)
 - Python 3.6+
 - [Mido](https://pypi.org/project/mido/)
-
 - (Optional) [Poiyomi Toon Shader](https://github.com/poiyomi/PoiyomiToonShader)
 - (Optional) [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) or equivalent virtual MIDI loopback. Used to route `midifilter.py` output back into Unity/VRChat.
 
@@ -26,6 +28,18 @@ python midifilter.py "DDJ-1000" "<MIDI OUTPUT NAME>"
 ```
 5. In Unity, select the MIDI output name from the previous step under `VRChat SDK > Utilities > MIDI`
 6. Play
+
+
+## Demo
+[![UDJ-1000 next to real life DJ controller](./Docs/youtube-thumbnail.jpg)](https://www.youtube.com/watch?v=S0iXARL-Q10)
+
+Watch the [demo video on Youtube](https://www.youtube.com/watch?v=S0iXARL-Q10).
+
+You can also try it out in VRChat using the link below:
+
+https://vrchat.com/home/launch?worldId=wrld_a3f6be81-cf26-4d45-b7e5-5817ed70914c
+
+Note: You may need to change your [VRChat launch options](https://docs.vrchat.com/docs/realtime-midi) if you have multiple MIDI devices connected
 
 
 ## Known Issues/Bugs
