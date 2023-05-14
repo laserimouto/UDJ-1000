@@ -1,7 +1,9 @@
 # UDJ-1000
 MIDI-controlled 4-channel DJ controller prop for VRChat worlds. The UDJ-1000's knobs, faders, buttons & jogwheels are synced to reflect the positions of a physical DDJ-1000 in real time.
 
-![UDJ-1000](./Docs/img/booth-thumb1-resize.png)
+[![UDJ-1000 next to real life DJ controller](./Docs/img/youtube-thumbnail.jpg)](https://www.youtube.com/watch?v=S0iXARL-Q10)
+
+Watch the [demo video on Youtube](https://www.youtube.com/watch?v=lzRvLQKQWvw)
 
 
 ## Setup
@@ -10,7 +12,7 @@ MIDI-controlled 4-channel DJ controller prop for VRChat worlds. The UDJ-1000's k
 - [VRChat SDK3 Worlds](https://vrchat.com/home/download)
 - [UdonSharp](https://github.com/vrchat-community/UdonSharp)
 - Python 3.6+ for [mido](https://pypi.org/project/mido/) & rtmidi backend
-- [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) or equivalent virtual MIDI loopback.
+- [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) or equivalent virtual MIDI loopback
 - (Optional) [Poiyomi Toon Shader](https://github.com/poiyomi/PoiyomiToonShader)
 
 
@@ -34,19 +36,17 @@ Running...
 7. Play
 
 ## Detailed Setup Tutorials
-- [MIDI Sync + Rekordbox Control using Separate MacOS DJ Computer](https://github.com/laserimouto/UDJ-1000/wiki/MIDI-control-using-a-separate-MacOS-DJ-computer) (Recommended)
-- [Windows Only MIDI Sync + Rekordbox Control](https://github.com/laserimouto/UDJ-1000/wiki/MIDI-control-using-Windows-only)
+- [MIDI Sync + Rekordbox Control using Separate MacOS DJ Computer](https://github.com/laserimouto/UDJ-1000/wiki/Using-a-separate-Mac-for-MIDI-Sync-&-Rekordbox-control) (Recommended)
+- [Windows Only MIDI Sync + Rekordbox Control](https://github.com/laserimouto/UDJ-1000/wiki/Windows-only-MIDI-Sync-&--Rekordbox-control)
 
 ## Demo
-[![UDJ-1000 next to real life DJ controller](./Docs/img/youtube-thumbnail.jpg)](https://www.youtube.com/watch?v=S0iXARL-Q10)
-
-Watch the [demo video on Youtube](https://www.youtube.com/watch?v=S0iXARL-Q10).
+Watch the [demo video on Youtube](https://www.youtube.com/watch?v=lzRvLQKQWvw).
 
 You can also try it out in VRChat using the link below:
 
 https://vrchat.com/home/launch?worldId=wrld_a3f6be81-cf26-4d45-b7e5-5817ed70914c
 
-Note: You may need to change your [VRChat launch options](https://docs.vrchat.com/docs/realtime-midi) if you have multiple MIDI devices connected
+(Note: You may need to change your [VRChat launch options](https://docs.vrchat.com/docs/realtime-midi) if you have multiple MIDI devices connected)
 
 
 ## Known Issues/Bugs
